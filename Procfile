@@ -1,0 +1,1 @@
+web: python entry.py --config config/heroku.yaml

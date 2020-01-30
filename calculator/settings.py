@@ -1,4 +1,5 @@
 """Загрузка конфигурации."""
+from io import TextIOWrapper
 from pathlib import Path
 
 import yaml
@@ -21,6 +22,8 @@ def load_config(config_file=None):
 
     cf_dict = {}
     if config_file:
+        if isinstance(config_file, TextIOWrapper):
+            config_file = config_file.name
         with open(config_file, 'r') as f:
             cf_dict = yaml.safe_load(f)
 
