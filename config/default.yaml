@@ -1,0 +1,6 @@
+database:
+  DB_USER: tom
+  DB_PASS: root
+  DB_NAME: calc_db
+  DB_HOST: db
+  DB_PORT: 5432

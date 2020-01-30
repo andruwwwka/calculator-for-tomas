@@ -1,0 +1,6 @@
+database:
+  DB_USER: stfglinhdlpwkn
+  DB_PASS: aeb9337d7d6430e7d95881b73de0f4f66ad21837b57f0ecbc36819113aa5877f
+  DB_NAME: debfmmqt1gmtsf
+  DB_HOST: ec2-54-195-252-243.eu-west-1.compute.amazonaws.com
+  DB_PORT: 5432
