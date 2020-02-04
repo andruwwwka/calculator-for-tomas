@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: python entry.py --port 80 --config config/heroku.yml
+  web: "python entry.py --port 80 --config config/heroku.yml"
