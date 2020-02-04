@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: Dockerfile
-run:
-  web: "python entry.py --port 5000 --config config/heroku.yml"
